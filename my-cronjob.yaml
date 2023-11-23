@@ -8,6 +8,7 @@ spec:
   schedule: "* * * * *"
   jobTemplate:
     spec:
+      parallelism: 5
       completions: 10
       completionMode: "Indexed"
       template:
